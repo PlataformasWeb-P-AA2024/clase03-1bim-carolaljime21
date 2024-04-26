@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+  </head>
+  <body>
+  <div id="parrafo1"></div>
+  <hr />
+  <hr />
+  <hr />
+  <div id="parrafo2"></div>
+
+  <div id="listado3">
+  </div>
+
+  <script type="text/javascript" charset="utf-8">
+      var v = "";
+      var i = 0;
+      for (i = 1; i <= 100; i++) {
+        var v = v + i.toString() + "<br/>";
+        console.log(v);
+      }
+
+      document.getElementById("parrafo1").innerText = v; 
+      document.getElementById("parrafo2").innerHTML = i;
+
+  </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Demo Jquery y JqueryUI</title>
+    <link rel="stylesheet" href="estilos/miestilo.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  </head>
+  <body>
+      <h2>Ejemplo de Uso de jQuery y jQueryUI</h2>
+
+     <div class="columns">
+      <div class="column uno">
+        <div>
+          <p id="nombreCarrera">Tecnologías de la Información</p>
+          <p id="nombreUniversidad">Universidad Técnica Particular de Loja</p>
+          <button type="submit">Generar Mensaje</button>
+        </div>
+      </div>
+      <div class="column dos">
+          <p id="mensajeFinal"></p>
+      </div>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function() {
+      $( "button" ).click(function() {
+        var texto1 = $('#nombreCarrera').text();
+        var texto2 = $('#nombreUniversidad').text();
+        $('#mensajeFinal').text("Su carrera es: "+ texto1 + ". Su universidad es "
+          + texto2);
+        $('#mensajeFinal2').text("Su carrera es: "+ texto1 + ". Su universidad es "
+          + texto2);
+        $('#mensajeFinal3').text("Su carrera es: "+ texto1 + ". Su universidad es "
+          + texto2);
+        console.log(texto1);
+      });
+    });
+  </script>
+</html>

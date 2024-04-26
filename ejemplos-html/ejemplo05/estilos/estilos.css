@@ -1,0 +1,28 @@
+/* manejo de las características de la etiqueta body*/
+
+body {
+  background: #FEFEFD;
+  padding: 20px;
+
+}
+
+/* manejo de las características de la etiqueta table*/
+th, td {
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+tr:hover {
+  background-color: #258EAD;
+}
+
+/* manejo de las características de las clases*/
+
+.titulodecampo {
+  background: #9999FF;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+}
