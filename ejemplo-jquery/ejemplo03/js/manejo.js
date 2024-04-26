@@ -19,7 +19,7 @@ $(document).ready(function() {
 
   $("#nombreUniversidad").on( "mouseover", function() {
       $('#nombreUniversidad').css( "color", "black" );
-      $('body').css( "background", "black" );
+      // $('body').css( "background", "purple" );CUando el mouse pase por el nombre de la universidad que es un ID cambia de color.
   });
 
 
